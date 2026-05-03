@@ -1,0 +1,23 @@
+Author: Youcef El Sedik Mehdaoui
+
+Project: JWT Authentication and Defense Programming
+
+1. The Need to Use Salting to Prevent Rainbow Table Attacks
+
+Storing passwords as text is a big no-no in modern cryptography. It's a security risk. Hashing passwords using algorithms like SHA-256 is a start but its still vulnerable to rainbow table attacks.
+
+What's a rainbow table? It's a database of millions of passwords and their hash values. If a hacker gets their hands on a database with hashes they can simply look up the hash to find the original password.
+
+That's where salting comes in. Salting adds an random string of characters to each users password before hashing it.
+
+Here's why salting works:
+
+* It makes each password unique even if two users have the password like "Password123". Their salts will be different resulting in two different hashes in the database.
+
+* It increases the complexity of the search range. To use a rainbow table a hacker would have to calculate a table for each possible salt value, which is mathematically impossible.
+
+* It protects against attacks. Salting forces hackers to use an attack or a mass attack for each user individually which slows down the penetration of the entire database.
+
+2. The Risks of Storing Sensitive Data in a JWT Payload
+
+JSON Web Tokens or JWT are great for authentication that doesn't depend on state.. They're often misunderstood as a safe place to store data. In this project I used the payload for -sensitive data, like names.
