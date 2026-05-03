@@ -1,0 +1,33 @@
+2026-05-03 21:24:00,444 - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2026-05-03 21:24:00,444 - INFO - [33mPress CTRL+C to quit[0m
+2026-05-03 21:24:00,446 - INFO -  * Restarting with stat
+2026-05-03 21:24:01,154 - WARNING -  * Debugger is active!
+2026-05-03 21:24:01,158 - INFO -  * Debugger PIN: 777-253-775
+2026-05-03 21:30:56,012 - INFO - 127.0.0.1 - - [03/May/2026 21:30:56] "[33mPOST /register](http://127.0.0.1:5000/register HTTP/1.1[0m" 404 -
+2026-05-03 21:31:11,695 - INFO - 127.0.0.1 - - [03/May/2026 21:31:11] "[31m[1mPOST /register HTTP/1.1[0m" 415 -
+2026-05-03 21:31:12,583 - INFO - 127.0.0.1 - - [03/May/2026 21:31:12] "[31m[1mPOST /register HTTP/1.1[0m" 415 -
+2026-05-03 21:31:43,111 - INFO - 127.0.0.1 - - [03/May/2026 21:31:43] "[31m[1mPOST /register HTTP/1.1[0m" 415 -
+2026-05-03 21:34:26,255 - INFO - 127.0.0.1 - - [03/May/2026 21:34:26] "[35m[1mPOST /register HTTP/1.1[0m" 201 -
+2026-05-03 21:35:07,125 - INFO - 127.0.0.1 - - [03/May/2026 21:35:07] "POST /login HTTP/1.1" 200 -
+2026-05-03 21:35:27,195 - INFO - 127.0.0.1 - - [03/May/2026 21:35:27] "POST /login HTTP/1.1" 200 -
+2026-05-03 21:35:47,842 - INFO - 127.0.0.1 - - [03/May/2026 21:35:47] "POST /login HTTP/1.1" 200 -
+2026-05-03 21:36:21,151 - INFO - 127.0.0.1 - - [03/May/2026 21:36:21] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-03 21:37:30,669 - INFO - 127.0.0.1 - - [03/May/2026 21:37:30] "POST /login HTTP/1.1" 200 -
+2026-05-03 21:39:13,970 - INFO - 127.0.0.1 - - [03/May/2026 21:39:13] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-03 21:40:29,157 - INFO - 127.0.0.1 - - [03/May/2026 21:40:29] "GET /profile HTTP/1.1" 200 -
+2026-05-03 21:41:12,328 - WARNING - Unauthorized Admin access attempt to /user/1 by user: youcef
+2026-05-03 21:41:12,329 - INFO - 127.0.0.1 - - [03/May/2026 21:41:12] "[31m[1mDELETE /user/1 HTTP/1.1[0m" 403 -
+2026-05-03 22:32:30,912 - INFO - 127.0.0.1 - - [03/May/2026 22:32:30] "POST /login HTTP/1.1" 200 -
+2026-05-03 22:37:50,436 - INFO - 127.0.0.1 - - [03/May/2026 22:37:50] "POST /login HTTP/1.1" 200 -
+2026-05-03 22:37:54,807 - INFO - 127.0.0.1 - - [03/May/2026 22:37:54] "[33mPOST /profil HTTP/1.1[0m" 404 -
+2026-05-03 22:37:57,834 - INFO - 127.0.0.1 - - [03/May/2026 22:37:57] "[31m[1mPOST /profile HTTP/1.1[0m" 405 -
+2026-05-03 22:38:15,245 - INFO - 127.0.0.1 - - [03/May/2026 22:38:15] "[31m[1mGET /profile HTTP/1.1[0m" 401 -
+2026-05-03 22:38:45,092 - INFO - 127.0.0.1 - - [03/May/2026 22:38:45] "[31m[1mPOST /profile HTTP/1.1[0m" 405 -
+2026-05-03 22:39:37,171 - INFO - 127.0.0.1 - - [03/May/2026 22:39:37] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2026-05-03 22:39:47,500 - INFO - 127.0.0.1 - - [03/May/2026 22:39:47] "POST /login HTTP/1.1" 200 -
+2026-05-03 22:40:44,475 - INFO - 127.0.0.1 - - [03/May/2026 22:40:44] "[31m[1mPOST /profile HTTP/1.1[0m" 405 -
+2026-05-03 22:40:47,983 - INFO - 127.0.0.1 - - [03/May/2026 22:40:47] "GET /profile HTTP/1.1" 200 -
+2026-05-03 22:41:14,316 - WARNING - Unauthorized Admin access attempt to /user/1 by user: youcef
+2026-05-03 22:41:14,316 - INFO - 127.0.0.1 - - [03/May/2026 22:41:14] "[31m[1mDELETE /user/1 HTTP/1.1[0m" 403 -
+2026-05-03 22:53:11,175 - INFO - 127.0.0.1 - - [03/May/2026 22:53:11] "[31m[1mDELETE /user/1 HTTP/1.1[0m" 401 -
